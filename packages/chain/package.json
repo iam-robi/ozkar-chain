@@ -58,6 +58,6 @@
     "util": "^0.12.5"
   },
   "dependencies": {
-    "@ozkarjs/vhir": "^0.1.5"
+
   }
 }

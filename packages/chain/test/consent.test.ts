@@ -2,7 +2,6 @@ import { TestingAppChain } from "@proto-kit/sdk";
 import { CircuitString, PrivateKey, UInt64, Bool } from "o1js";
 import { Consent } from "../src/Consent";
 import { log } from "@proto-kit/common";
-import { ZkConsent } from "@ozkar/vhir";
 
 log.setLevel("ERROR");
 
@@ -25,6 +24,7 @@ describe("consent", () => {
 
     const managerPrivateKey = PrivateKey.random();
     const manager = managerPrivateKey.toPublicKey();
+
     const controllerPrivateKey = PrivateKey.random();
     const controller = managerPrivateKey.toPublicKey();
 
