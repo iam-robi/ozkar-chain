@@ -144,9 +144,6 @@ importers:
 
   packages/chain:
     dependencies:
-      '@ozkarjs/vhir':
-        specifier: ^0.1.5
-        version: 0.1.5(o1js@0.13.1)
       '@proto-kit/api':
         specifier: '*'
         version: 0.1.1-develop.340(@proto-kit/common@0.1.1-develop.340)(@proto-kit/sequencer@0.1.1-develop.340)(o1js@0.13.1)(tsyringe@4.8.0)
@@ -1503,14 +1500,6 @@ packages:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.15.0
-
-  /@ozkarjs/vhir@0.1.5(o1js@0.13.1):
-    resolution: {integrity: sha512-V6bbtG0X39H1VTYoEDc8S1L6PuGi5KCtEu6bo0MGC6T7HEOLg5qSYkPR/1xqj45b5fwsgog2ssC+WolcpCxSyg==}
-    peerDependencies:
-      o1js: 0.14.*
-    dependencies:
-      o1js: 0.13.1
-    dev: false
 
   /@pkgr/utils@2.4.2:
     resolution: {integrity: sha512-POgTXhjrTfbTV63DiFXav4lBHiICLKKwDeaKn9Nphwj7WH6m0hMMCaJkMyRWjgtPFyRKRVoMXXjczsTQRDEhYw==}
